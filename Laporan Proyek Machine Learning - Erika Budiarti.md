@@ -70,12 +70,12 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 **Visualisasi Dataset**            
   *Grafik 1* : **Visualisasi pemberian rating film oleh pengguna**
   ![rating](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/rating.png)
-  Pada grafik 1, bisa dilihat bahwa pengguna paling banyak memberikan *rating* 4.0 disusul *rating* 3.0 dan *rating* 5.0
+      Pada grafik 1, bisa dilihat bahwa pengguna paling banyak memberikan *rating* 4.0 disusul *rating* 3.0 dan *rating* 5.0
          
            
   *Grafik 2* : **Visualisasi sebaran genre film**
   ![genre](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/genre.png)  
-  Grafik 2 memperlihatkan bahwa *genre* terbanyak dalam daftar film adalah *Drama* dan *Comedy*, sedangkan posisi terendah adalah *Film-Noir*.
+      Grafik 2 memperlihatkan bahwa *genre* terbanyak dalam daftar film adalah *Drama* dan *Comedy*, sedangkan posisi terendah adalah *Film-Noir*.
 
 
 ## Data Preparation
