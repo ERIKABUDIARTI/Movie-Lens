@@ -211,7 +211,7 @@ Pelatihan jaringan saraf tiruan mencakup informasi tentang preferensi pengguna t
 
 
 ## Evaluation
-Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan metrik loss **BINARY CROSS ENTROPY**
+Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan metrik loss **BINARY CROSS ENTROPY** untuk *Collaborative Filtering*
 
 1. **ROOT MEAN SQUARED ERROR**
     *Root Mean Square Error (RMSE)* adalah metrik evaluasi yang digunakan untuk mengukur rata-rata dari selisih antara prediksi model dan nilai sebenarnya, dihitung sebagai berikut:
