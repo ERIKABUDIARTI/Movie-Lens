@@ -4,12 +4,14 @@
 ## Project Overview
 
 **Latar Belakang Proyek Rekomendasi Film**
+
 Film merupakan salah satu bentuk hiburan yang populer di dunia. Setiap tahunnya, ribuan judul film dirilis di berbagai *platform*, baik di bioskop maupun layanan streaming. Hal ini tentu membuat masyarakat memiliki banyak pilihan film yang bisa ditonton.
 Namun, banyaknya pilihan film juga bisa menjadi tantangan tersendiri. Masyarakat seringkali kesulitan untuk menemukan film yang sesuai dengan selera masing-masing. Oleh karena itu, diperlukan sistem rekomendasi film yang dapat membantu masyarakat menemukan film yang diinginkan.
 
 Proyek rekomendasi film ini menawarkan solusi untuk permasalahan tersebut. Sistem rekomendasi film yang akan dibangun akan menggunakan metode pembelajaran mesin untuk mempelajari data film dan pengguna. Sistem ini mampu memberikan rekomendasi film yang sesuai dengan minat pengguna, meskipun jumlah data film yang ada sangatlah besar dan kompleks.
 
 **Research Terkait**
+
 Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, e-commerce, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi tren pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan item yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain.
 
 *Referensi*: 
