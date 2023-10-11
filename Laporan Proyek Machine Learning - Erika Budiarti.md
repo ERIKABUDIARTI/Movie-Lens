@@ -69,6 +69,7 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
   |100000 |                      [Adventure, Drama, Romance]|                    Mohenjo Daro| 2016 |   611   |   3.0  |
   |100001 |                                    [Documentary]| The Beatles: Eight Days a Week | 2016 |   547   |   5.0  |
 
+           
 **Visualisasi Dataset**            
   *Grafik 1* : **Visualisasi pemberian rating film oleh pengguna**
   ![rating](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/rating.png)
