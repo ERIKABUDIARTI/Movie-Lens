@@ -12,13 +12,13 @@ Proyek rekomendasi film ini menawarkan solusi untuk permasalahan tersebut. Siste
 
 **Research Terkait**
 
-Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, e-commerce, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi tren pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan item yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain. [1]
+Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, *e-commerce*, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi *trend* pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan item yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain. [1]
 
 
 ## Business Understanding
 
 ### Problem Statements
-1. Diperlukan suatu sistem yang dapat memprediksi peringkat atau preferensi pengguna terhadap film yang belum pernah ditonton. Dalam kata lain, bagaimana dapat mengembangkan model atau algoritma yang dapat merekomendasikan film kepada pengguna berdasarkan pemberian rating terhadap film-film sebelumnya, serta informasi tambahan seperti *genre*.
+1. Diperlukan suatu sistem yang dapat memprediksi peringkat atau preferensi pengguna terhadap film yang belum pernah ditonton. Dalam kata lain, bagaimana dapat mengembangkan model atau algoritma yang dapat merekomendasikan film kepada pengguna berdasarkan pemberian *rating* terhadap film-film sebelumnya, serta informasi tambahan seperti *genre*.
 2. Diperlukan suatu sistem yang dapat memaksimalkan tingkat akurasi dalam membuat rekomendasi film kepada pengguna. Ini berarti bagaimana dapat mengembangkan algoritma atau model yang dapat memahami preferensi pengguna dengan baik dan memberikan rekomendasi yang sesuai dengan preferensi pengguna, sehingga meningkatkan pengalaman pengguna dalam menemukan film yang disukai. 
 
 ### Goals
@@ -29,8 +29,7 @@ Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena me
 Berikut adalah beberapa pendekatan yang dapat digunakan untuk membangun rekomendasi film:
     
 1. *Content-Based Filtering (CBF)*:
-Pendekatan ini akan memanfaatkan informasi tentang film, seperti *genre* dan deskripsi alur cerita, untuk memahami preferensi pengguna.
-Algoritma ini akan mencocokkan preferensi pengguna dengan atribut-atribut film dan memberikan rekomendasi film yang memiliki atribut yang sesuai dengan preferensi pengguna.
+Pendekatan ini akan memanfaatkan informasi tentang film, seperti *genre* dan deskripsi alur cerita, untuk memahami preferensi pengguna. Algoritma ini akan mencocokkan preferensi pengguna dengan atribut-atribut film dan memberikan rekomendasi film yang memiliki atribut yang sesuai dengan preferensi pengguna.
     
 2. *Collaborative Filtering (CF)*:
 Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk memprediksi preferensi mereka. Kita dapat mengimplementasikan CF menggunakan dua varian, yaitu *User-Based CF* dan *Item-Based CF*. *User-Based CF* akan mencari pengguna serupa dan      merekomendasikan film yang disukai oleh pengguna serupa. *Item-Based CF* akan mencari film serupa dan merekomendasikan film yang mirip dengan yang sudah disukai oleh pengguna.
@@ -40,7 +39,7 @@ Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk mempredi
 Klik *link* berikut untuk *download* dataset:
 [MovieLens](https://www.kaggle.com/datasets/snehal1409/movielens).
 
-Dataset tersebut mempunyai data 9125 film dan 100004 penilaian (*rating*) dari 671 pengguna yang dikumpulkan dari 9 Januari 1995 sampai dengan 16 Oktober 2016.
+*Dataset* tersebut mempunyai data 9125 film dan 100004 penilaian (*rating*) dari 671 pengguna yang dikumpulkan dari 9 Januari 1995 sampai dengan 16 Oktober 2016.
 
 Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 - movieId : kode unik pengenal film
@@ -70,12 +69,11 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 **Visualisasi Dataset**            
   *Grafik 1* : **Visualisasi pemberian rating film oleh pengguna**
   ![rating](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/rating.png)
-      Pada grafik 1, bisa dilihat bahwa pengguna paling banyak memberikan *rating* 4.0 disusul *rating* 3.0 dan *rating* 5.0
-         
+    Pada grafik 1, bisa dilihat bahwa pengguna paling banyak memberikan *rating* 4.0 disusul *rating* 3.0 dan *rating* 5.0    
            
   *Grafik 2* : **Visualisasi sebaran genre film**
   ![genre](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/genre.png)  
-      Grafik 2 memperlihatkan bahwa *genre* terbanyak dalam daftar film adalah *Drama* dan *Comedy*, sedangkan posisi terendah adalah *Film-Noir*.
+    Grafik 2 memperlihatkan bahwa *genre* terbanyak dalam daftar film adalah *Drama* dan *Comedy*, sedangkan posisi terendah adalah *Film-Noir*.
 
 
 ## Data Preparation
@@ -107,11 +105,11 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 ![model](https://editor.analyticsvidhya.com/uploads/88506recommendation%20system.png)
 
 1. **Content-Based Filtering (CBF)**:
-CBF memanfaatkan informasi tentang atribut atau konten dari item-item yang akan direkomendasikan kepada pengguna. Misalnya, dalam sistem rekomendasi film, CBF akan menganalisis fitur-fitur film seperti genre, sutradara, pemeran, atau alur cerita untuk membuat rekomendasi.
+CBF memanfaatkan informasi tentang atribut atau konten dari *item-item* yang akan direkomendasikan kepada pengguna. Misalnya, dalam sistem rekomendasi film, CBF akan menganalisis fitur-fitur film seperti *genre* atau alur cerita untuk membuat rekomendasi.
 
     *Kelebihan CBF*:
     * Personalisasi 
-    CBF dapat memberikan rekomendasi yang lebih personal karena berdasarkan pada preferensi pengguna yang spesifik terhadap atribut-atribut item.
+    CBF dapat memberikan rekomendasi yang lebih personal karena berdasarkan pada preferensi pengguna yang spesifik terhadap atribut-atribut *item*.
     * Pemahaman yang Baik 
     CBF memahami kenapa item direkomendasikan karena ia memperhitungkan atribut-atribut yang spesifik, sehingga hasil rekomendasi lebih dapat dijelaskan.
     * Tidak Bergantung pada Data Pengguna 
@@ -119,11 +117,11 @@ CBF memanfaatkan informasi tentang atribut atau konten dari item-item yang akan 
     
     *Kekurangan CBF*:
     * Terbatas dalam diversitas 
-    CBF cenderung tidak mampu merekomendasikan item yang berbeda dari preferensi yang sudah ada. Pengguna mungkin cenderung mendapatkan rekomendasi yang sangat mirip dengan yang disukai sebelumnya.
+    CBF cenderung tidak mampu merekomendasikan *item* yang berbeda dari preferensi yang sudah ada. Pengguna mungkin cenderung mendapatkan rekomendasi yang sangat mirip dengan yang disukai sebelumnya.
     * Keterbatasan dalam atribut: 
-    CBF hanya efektif jika atribut-atribut item dapat diukur atau diekstrak dengan baik. Jika atribut-atribut ini tidak mencakup preferensi pengguna, sistem tidak akan efektif.
+    CBF hanya efektif jika atribut-atribut *item* dapat diukur atau diekstrak dengan baik. Jika atribut-atribut ini tidak mencakup preferensi pengguna, sistem tidak akan efektif.
     * *Cold Start Problem* 
-    CBF mengalami kesulitan saat menghadapi item baru yang belum memiliki informasi atribut yang cukup.
+    CBF mengalami kesulitan saat menghadapi *item* baru yang belum memiliki informasi atribut yang cukup.
     
     Proyek ini menggunakan algoritma KNN untuk membuat rekomendasi *Content-Based Filtering*, dengan parameter:
     * metric='cosine' 
@@ -151,19 +149,19 @@ CF mengandalkan data kolaboratif dari pengguna, yaitu informasi riwayat interaks
 
     *Kelebihan CF*:
     * Efektif untuk item baru 
-    CF cenderung lebih efektif dalam menangani item baru karena ia mengandalkan perilaku pengguna, bukan atribut item.
+    CF cenderung lebih efektif dalam menangani *item* baru karena ia mengandalkan perilaku pengguna, bukan atribut *item*.
     * Dapat menangani diversitas 
-    CF dapat merekomendasikan item yang berbeda dari preferensi pengguna karena ia mengidentifikasi pola interaksi yang mungkin tidak terlihat dari atribut item.
+    CF dapat merekomendasikan item yang berbeda dari preferensi pengguna karena ia mengidentifikasi pola interaksi yang mungkin tidak terlihat dari atribut *item*.
     * Tidak Bergantung pada fitur atribut 
-    Tidak bergantung pada atribut item, sehingga cocok untuk berbagai jenis produk atau layanan.
+    Tidak bergantung pada atribut *item*, sehingga cocok untuk berbagai jenis produk atau layanan.
     
     *Kekurangan CF*:
     * Data yang diperlukan 
     CF memerlukan data pengguna yang cukup untuk menghasilkan rekomendasi yang baik. Dalam kasus yang jarang terjadi, ini bisa menjadi masalah.
     * *Sparsity* 
-    Masalah sparsitas terjadi ketika banyak item dan pengguna, sehingga matriks kolaboratif menjadi sangat jarang dan sulit untuk memberikan rekomendasi yang akurat.
+    Masalah sparsitas terjadi ketika banyak *item* dan pengguna, sehingga matriks kolaboratif menjadi sangat jarang dan sulit untuk memberikan rekomendasi yang akurat.
     * *Bubble Filter* 
-    Ada kemungkinan bahwa CF hanya merekomendasikan item yang populer atau sering digunakan, yang dapat menyebabkan pengguna terjebak dalam "gelembung filter".
+    Ada kemungkinan bahwa CF hanya merekomendasikan *item* yang populer atau sering digunakan, yang dapat menyebabkan pengguna terjebak dalam "gelembung filter".
     
     Proyek ini menggunakan algoritma Neural Network untuk membuat model rekomendasi *Collaborative Filtering* dengan parameter: 
     * loss = Binary Crossentropy
@@ -190,7 +188,7 @@ CF mengandalkan data kolaboratif dari pengguna, yaitu informasi riwayat interaks
 Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan metrik loss **BINARY CROSS ENTROPY**
 
 1. **ROOT MEAN SQUARED ERROR**
-    Root Mean Square Error (RMSE) adalah metrik evaluasi yang digunakan untuk mengukur rata-rata dari selisih antara prediksi model dan nilai sebenarnya, dihitung sebagai berikut:
+    *Root Mean Square Error (RMSE)* adalah metrik evaluasi yang digunakan untuk mengukur rata-rata dari selisih antara prediksi model dan nilai sebenarnya, dihitung sebagai berikut:
 
         RMSE = √(Σ(yi - ŷi)² / n)
     *yi* adalah nilai sebenarnya dalam data
@@ -214,7 +212,7 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
     ![RMSE](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/Rmse.png)
 
 2. **BINARY CROSS ENTROPY**
-    Binary Cross-Entropy atau Logistic Loss adalah metrik loss function yang digunakan dalam tugas klasifikasi biner. Ini mengukur sejauh mana model memprediksi kelas yang benar dan seberapa yakin model tersebut dengan prediksi tersebut. 
+    *Binary Cross-Entropy* atau *Logistic Loss* adalah metrik *loss function* yang digunakan dalam tugas klasifikasi biner. Ini mengukur sejauh mana model memprediksi kelas yang benar dan seberapa yakin model tersebut dengan prediksi tersebut. 
 
     Binary Cross-Entropy bekerja dengan menggunakan logaritma natural (log) untuk menghitung kesalahan prediksi kelas biner. Berikut adalah formula dan cara kerja Binary Cross-Entropy:
 
@@ -223,12 +221,12 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
     *p* adalah probabilitas yang diprediksi oleh model
     *Σ* adalah simbol untuk menjumlahkan (penjumlahan untuk semua sampel dalam dataset).
 
-    Cara Binary Cross-Entropy Loss bekerja adalah sebagai berikut:
-    Untuk setiap sampel, dibuat perbandingan antara probabilitas yang diprediksi (*p*) dengan label sebenarnya (*y*). Jika *y* adalah 1, hitung logaritma natural dari p. Jika *y* adalah 0, hitung logaritma natural dari (1 - p). Logaritma natural diterapkan agar kesalahan (*error*) kelihatan lebih besar untuk prediksi yang mempunyai perbedaan sifnifikan dari label sebenarnya. Setiap nilai logaritma yang dihitung dijumlahkan dan dibalikkan tanda negatif untuk menghasilkan nilai Binary Cross-Entropy Loss.
+    Cara *Binary Cross-Entropy Loss* bekerja adalah sebagai berikut:
+    Untuk setiap sampel, dibuat perbandingan antara probabilitas yang diprediksi (*p*) dengan label sebenarnya (*y*). Jika *y* adalah 1, hitung logaritma natural dari p. Jika *y* adalah 0, hitung logaritma natural dari (1 - p). Logaritma natural diterapkan agar kesalahan (*error*) kelihatan lebih besar untuk prediksi yang mempunyai perbedaan sifnifikan dari label sebenarnya. Setiap nilai logaritma yang dihitung dijumlahkan dan dibalikkan tanda negatif untuk menghasilkan nilai *Binary Cross-Entropy Loss*.
 
-    Binary Cross-Entropy mengukur sejauh mana model mendekati label yang benar dan menilai tingkat ketidakpastian dalam prediksi. Semakin kecil nilai Binary Cross-Entropy Loss, semakin baik model yang dibuat. Loss yang rendah menunjukkan bahwa model menghasilkan probabilitas yang mendekati 1 untuk sampel kelas positif dan mendekati 0 untuk sampel kelas negatif.
+    *Binary Cross-Entropy* mengukur sejauh mana model mendekati label yang benar dan menilai tingkat ketidakpastian dalam prediksi. Semakin kecil nilai *Binary Cross-Entropy Loss*, semakin baik model yang dibuat. Loss yang rendah menunjukkan bahwa model menghasilkan probabilitas yang mendekati 1 untuk sampel kelas positif dan mendekati 0 untuk sampel kelas negatif.
 
-    Tujuan utama mengoptimalkan Binary Cross-Entropy Loss adalah untuk mencapai nilai yang lebih rendah, yang mencerminkan kinerja yang lebih baik.
+    Tujuan utama mengoptimalkan *Binary Cross-Entropy Loss* adalah untuk mencapai nilai yang lebih rendah, yang mencerminkan kinerja yang lebih baik.
 
     *Grafik 4* : **Validation Loss vs Train Loss**
     ![Loss](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/Loss.png)
