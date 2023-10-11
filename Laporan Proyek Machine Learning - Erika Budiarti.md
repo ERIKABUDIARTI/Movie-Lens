@@ -53,6 +53,7 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 - userId : kode unik pengguna/penonton
 - rating : penilaian pengguna atas film (range 0.5 sampai 5.0)
 
+    
 *Tabel 1* : **Dataset Movie Lens**
 |movieID|                  genres                         |  title  | year |  userId | rating |
 |-------|-------------------------------------------------|---------|------|---------|--------|
@@ -68,11 +69,11 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 |100000 |                      [Adventure, Drama, Romance]|                    Mohenjo Daro| 2016 |   611   |   3.0  |
 |100001 |                                    [Documentary]| The Beatles: Eight Days a Week | 2016 |   547   |   5.0  |
 
-
+     
 *Grafik 1* : **Visualisasi pemberian rating film oleh pengguna**
 ![rating](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/rating.png)
 Pada grafik 1, bisa dilihat bahwa pengguna paling banyak memberikan *rating* 4.0 disusul *rating* 3.0 dan *rating* 5.0
-
+     
 *Grafik 2* : **Visualisasi sebaran genre film**
 ![genre](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/genre.png)
 
