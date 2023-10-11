@@ -263,7 +263,7 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
 
     *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
         $$\text{Presisi} = \frac{\text{10}}{\text{10}} = 1.00 $$      
-   Pada proyek ini, diperoleh skor *precision* sebesar **1.00** yang berarti sistem rekomendasi berhasil dalam mengidentifikasi dan merekomendasikan *item* kepada pengguna dengan tingkat keakuratan yang sempurna. Dalam *content-based filtering*, rekomendasi dibuat berdasarkan kesesuaian (relevansi) antara preferensi pengguna dan konten dari *item* yang direkomendasikan. Oleh karena itu, skor *precision* yang sempurna menggambarkan bahwa semua *item* yang direkomendasikan kepada pengguna adalah benar-benar sesuai dengan preferensi mereka.
+   Pada proyek ini, diperoleh skor *precision* sebesar **1.00** yang berarti sistem rekomendasi berhasil dalam mengidentifikasi dan merekomendasikan *item* kepada pengguna dengan tingkat keakuratan yang sempurna. Dalam *content-based filtering*, rekomendasi dibuat berdasarkan kesesuaian (relevansi) antara preferensi pengguna dan konten dari *item* yang direkomendasikan. Oleh karena itu, skor *precision* yang sempurna menggambarkan bahwa semua *item* yang direkomendasikan adalah benar-benar sesuai dengan preferensi pengguna.
 
 
 ---
