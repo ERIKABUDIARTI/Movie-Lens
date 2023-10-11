@@ -50,21 +50,21 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 - userId : kode unik pengguna/penonton
 - rating : penilaian pengguna atas film (range 0.5 sampai 5.0)
 
-    
-  *Tabel 1* : **Dataset Movie Lens**
-  |movieID|                  genres                         |                         title  | year |  userId | rating |
-  |-------|-------------------------------------------------|--------------------------------|------|---------|--------|
-  |   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |     7   |   3.0  |
-  |   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |     9   |   4.0  |
-  |   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |    13   |   5.0  |
-  |   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |    15   |   2.0  |
-  |   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |    19   |   3.0  |
-  | ..... |               ....................              |             ....               | .... |  .....  |   ...  |
-  | 99997 |                                          [Drama]| The Last Brickmaker in  America| 2001 |   287   |   5.0  |
-  | 99998 |                                          [Drama]|                 Stranger Things| 2016 |    73   |   4.5  |
-  | 99999 |                              [Romance, Thriller]|                          Rustom| 2016 |   611   |   5.0  |
-  |100000 |                      [Adventure, Drama, Romance]|                    Mohenjo Daro| 2016 |   611   |   3.0  |
-  |100001 |                                    [Documentary]| The Beatles: Eight Days a Week | 2016 |   547   |   5.0  |
+
+*Tabel 1* : **Dataset Movie Lens**
+|movieID|                  genres                         |                         title  | year |  userId | rating |
+|-------|-------------------------------------------------|--------------------------------|------|---------|--------|
+|   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |     7   |   3.0  |
+|   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |     9   |   4.0  |
+|   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |    13   |   5.0  |
+|   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |    15   |   2.0  |
+|   1   |[Adventure, Animation, Children, Comedy, Fantasy]|                       Toy Story| 1995 |    19   |   3.0  |
+| ..... |               ....................              |             ....               | .... |  .....  |   ...  |
+| 99997 |                                          [Drama]| The Last Brickmaker in  America| 2001 |   287   |   5.0  |
+| 99998 |                                          [Drama]|                 Stranger Things| 2016 |    73   |   4.5  |
+| 99999 |                              [Romance, Thriller]|                          Rustom| 2016 |   611   |   5.0  |
+|100000 |                      [Adventure, Drama, Romance]|                    Mohenjo Daro| 2016 |   611   |   3.0  |
+|100001 |                                    [Documentary]| The Beatles: Eight Days a Week | 2016 |   547   |   5.0  |
 
            
 **Visualisasi Dataset**            
