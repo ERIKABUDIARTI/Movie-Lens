@@ -66,7 +66,7 @@ Variabel-variabel pada MovieLens dataset adalah sebagai berikut:
 |100001 |                                    [Documentary]| The Beatles: Eight Days a Week | 2016 |   547   |   5.0  |
 
            
-**Visualisasi Dataset**            
+### **Visualisasi Dataset**            
   *Grafik 1* : **Visualisasi pemberian rating film oleh pengguna**
   ![rating](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/rating.png)
     Pada grafik 1, bisa dilihat bahwa pengguna paling banyak memberikan *rating* 4.0 disusul *rating* 3.0 dan *rating* 5.0    
