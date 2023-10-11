@@ -114,19 +114,19 @@ Grafik 2 memperlihatkan bahwa *genre* terbanyak dalam daftar film adalah *Drama*
 CBF memanfaatkan informasi tentang atribut atau konten dari item-item yang akan direkomendasikan kepada pengguna. Misalnya, dalam sistem rekomendasi film, CBF akan menganalisis fitur-fitur film seperti genre, sutradara, pemeran, atau alur cerita untuk membuat rekomendasi.
 
     *Kelebihan CBF*:
-    1. Personalisasi 
+    * Personalisasi 
     CBF dapat memberikan rekomendasi yang lebih personal karena berdasarkan pada preferensi pengguna yang spesifik terhadap atribut-atribut item.
-    2. Pemahaman yang Baik 
+    * Pemahaman yang Baik 
     CBF memahami kenapa item direkomendasikan karena ia memperhitungkan atribut-atribut yang spesifik, sehingga hasil rekomendasi lebih dapat dijelaskan.
-    3. Tidak Bergantung pada Data Pengguna 
+    * Tidak Bergantung pada Data Pengguna 
     CBF tidak memerlukan informasi riwayat pengguna atau data dari pengguna lain.
     
     *Kekurangan CBF*:
-    1. Terbatas dalam diversitas 
+    * Terbatas dalam diversitas 
     CBF cenderung tidak mampu merekomendasikan item yang berbeda dari preferensi yang sudah ada. Pengguna mungkin cenderung mendapatkan rekomendasi yang sangat mirip dengan yang disukai sebelumnya.
-    2. Keterbatasan dalam atribut: 
+    * Keterbatasan dalam atribut: 
     CBF hanya efektif jika atribut-atribut item dapat diukur atau diekstrak dengan baik. Jika atribut-atribut ini tidak mencakup preferensi pengguna, sistem tidak akan efektif.
-    3. *Cold Start Problem* 
+    * *Cold Start Problem* 
     CBF mengalami kesulitan saat menghadapi item baru yang belum memiliki informasi atribut yang cukup.
     
     Proyek ini menggunakan algoritma KNN untuk membuat rekomendasi *Content-Based Filtering*, dengan parameter:
@@ -154,19 +154,19 @@ CBF memanfaatkan informasi tentang atribut atau konten dari item-item yang akan 
 CF mengandalkan data kolaboratif dari pengguna, yaitu informasi riwayat interaksi pengguna dengan item. Dua jenis utama dari CF adalah *User-Based CF* dan *Item-Based CF*.
 
     *Kelebihan CF*:
-    1. Efektif untuk item baru 
+    * Efektif untuk item baru 
     CF cenderung lebih efektif dalam menangani item baru karena ia mengandalkan perilaku pengguna, bukan atribut item.
-    2. Dapat menangani diversitas 
+    * Dapat menangani diversitas 
     CF dapat merekomendasikan item yang berbeda dari preferensi pengguna karena ia mengidentifikasi pola interaksi yang mungkin tidak terlihat dari atribut item.
-    3. Tidak Bergantung pada fitur atribut 
+    * Tidak Bergantung pada fitur atribut 
     Tidak bergantung pada atribut item, sehingga cocok untuk berbagai jenis produk atau layanan.
     
     *Kekurangan CF*:
-    1. Data yang diperlukan 
+    * Data yang diperlukan 
     CF memerlukan data pengguna yang cukup untuk menghasilkan rekomendasi yang baik. Dalam kasus yang jarang terjadi, ini bisa menjadi masalah.
-    2. *Sparsity* 
+    * *Sparsity* 
     Masalah sparsitas terjadi ketika banyak item dan pengguna, sehingga matriks kolaboratif menjadi sangat jarang dan sulit untuk memberikan rekomendasi yang akurat.
-    3. *Bubble Filter* 
+    * *Bubble Filter* 
     Ada kemungkinan bahwa CF hanya merekomendasikan item yang populer atau sering digunakan, yang dapat menyebabkan pengguna terjebak dalam "gelembung filter".
     
     Proyek ini menggunakan algoritma Neural Network untuk membuat model rekomendasi *Collaborative Filtering* dengan parameter: 
