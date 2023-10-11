@@ -208,9 +208,9 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
     Dengan kata lain, RMSE adalah akar kuadrat dari rata-rata dari kuadrat kesalahan antara prediksi model dan nilai sebenarnya. 
     
     Metrik ini memiliki beberapa karakteristik penting:
-    1. Semua selisih antara prediksi dan nilai sebenarnya dihitung dan diperlakukan sama, tetapi dikuadratkan untuk menghindari perhitungan negatif yang dapat membatalkan satu sama lain.
-    2. RMSE memberikan penalti lebih besar untuk kesalahan besar, sehingga kesalahan yang signifikan memiliki dampak yang lebih besar pada skor RMSE.
-    3. RMSE menghasilkan skor dalam unit yang sama dengan data sebenarnya, sehingga lebih mudah untuk menginterpretasinya.
+    * Semua selisih antara prediksi dan nilai sebenarnya dihitung dan diperlakukan sama, tetapi dikuadratkan untuk menghindari perhitungan negatif yang dapat membatalkan satu sama lain.
+    * RMSE memberikan penalti lebih besar untuk kesalahan besar, sehingga kesalahan yang signifikan memiliki dampak yang lebih besar pada skor RMSE.
+    * RMSE menghasilkan skor dalam unit yang sama dengan data sebenarnya, sehingga lebih mudah untuk menginterpretasinya.
     
     Umumnya, semakin rendah nilai RMSE, semakin baik kinerja model. Sebagai pembanding, model dengan RMSE lebih rendah dianggap lebih baik dalam memprediksi data dibandingkan dengan model dengan RMSE yang lebih tinggi.
     
