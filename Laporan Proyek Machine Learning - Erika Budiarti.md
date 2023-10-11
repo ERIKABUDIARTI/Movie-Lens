@@ -180,6 +180,19 @@ CF mengandalkan data kolaboratif dari pengguna, yaitu informasi riwayat interaks
     * loss = Binary Crossentropy
     * optimizer = Adam
     * metric = Root Mean Squared Error
+  
+      RecommenderNet adalah jenis algoritma rekomendasi yang menggunakan jaringan saraf tiruan (*neural network*) untuk menghasilkan rekomendasi. Ini adalah pendekatan yang lebih maju dan rumit dibandingkan dengan KNN. Proses kerjanya melibatkan langkah-langkah berikut:
+Pelatihan jaringan saraf tiruan mencakup informasi tentang preferensi pengguna terhadap *item* tertentu. Jaringan saraf ini akan mempelajari pola dan fitur yang rumit dalam data pelatihan, termasuk interaksi kompleks antara pengguna dan *item*. Setelah pelatihan selesai, jaringan saraf dapat digunakan untuk membuat rekomendasi dengan memasukkan profil pengguna atau informasi *item* tertentu ke dalam jaringan, dan jaringan akan menghasilkan peringkat rekomendasi berdasarkan pemahaman yang diperoleh selama pelatihan.
+
+    *Kelebihan*:
+    * RecommenderNet dapat menangani data yang lebih kompleks
+    * dapat mempelajari pola yang rumit dalam preferensi pengguna
+    * dapat memperhitungkan sejumlah besar fitur yang relevan.
+
+    *Kekurangan:
+    * Implementasi dan pelatihan jaringan saraf tergolong rumit
+    * memerlukan sumber daya komputasi yang signifikan
+    * memerlukan data pelatihan yang cukup besar untuk memberikan hasil yang baik.
     
     Adapun untuk rekomendasi film diberikan adalah sebagai berikut: 
     
