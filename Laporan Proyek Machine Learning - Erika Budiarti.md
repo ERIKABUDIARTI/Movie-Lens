@@ -211,7 +211,7 @@ Pelatihan jaringan saraf tiruan mencakup informasi tentang preferensi pengguna t
 
 
 ## Evaluation
-Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan metrik loss **BINARY CROSS ENTROPY** untuk *Collaborative Filtering*
+Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan metrik loss **BINARY CROSS ENTROPY** untuk *Collaborative Filtering*. Sementara **PRECISION** digunakan sebagai metrik evaluasi untuk *Content-Based Filtering*
 
 1. **ROOT MEAN SQUARED ERROR**
     *Root Mean Square Error (RMSE)* adalah metrik evaluasi yang digunakan untuk mengukur rata-rata dari selisih antara prediksi model dan nilai sebenarnya, dihitung sebagai berikut:
@@ -257,10 +257,9 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
    *Grafik 4* : **Validation Loss vs Train Loss**
     ![Loss](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/Loss.png)
 
-    **PRECISION** 
-
-   Precision digunakan sebagai metrik evaluasi untuk sistem rekomendasi *Content-Based Filtering*. *Precision* mengukur sejauh mana rekomendasi yang diberikan oleh sistem sesuai dengan preferensi atau minat pengguna berdasarkan konten atau fitur-fitur *item* yang diketahui. 
-    *Precision* dihitung dengan rumus berikut:   
+3. **PRECISION** 
+   *Precision* digunakan sebagai metrik evaluasi sistem rekomendasi *Content-Based Filtering* untuk mengukur sejauh mana rekomendasi yang diberikan oleh sistem sesuai dengan preferensi atau minat pengguna berdasarkan konten atau fitur-fitur *item* yang diketahui. 
+   *Precision* dihitung dengan rumus berikut:   
         $$\text{Presisi} = \frac{\text{Jumlah item relevan yang direkomendasikan}}{\text{Jumlah total item yang direkomendasikan}}$$
 
    *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
