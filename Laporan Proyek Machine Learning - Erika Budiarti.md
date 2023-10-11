@@ -257,9 +257,8 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
    *Grafik 4* : **Validation Loss vs Train Loss**
     ![Loss](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/Loss.png)
 
-3. **PRECISION** 
-   *Precision* digunakan sebagai metrik evaluasi sistem rekomendasi *Content-Based Filtering* untuk mengukur sejauh mana rekomendasi yang diberikan oleh sistem sesuai dengan preferensi atau minat pengguna berdasarkan konten atau fitur-fitur *item* yang diketahui. 
-   *Precision* dihitung dengan rumus berikut:   
+3. **PRECISION**
+    *Precision* digunakan sebagai metrik evaluasi sistem rekomendasi *Content-Based Filtering* untuk mengukur sejauh mana rekomendasi yang diberikan oleh sistem sesuai dengan preferensi atau minat pengguna berdasarkan konten atau fitur-fitur *item* yang diketahui.               *Precision* dihitung dengan rumus berikut:   
         $$\text{Presisi} = \frac{\text{Jumlah item relevan yang direkomendasikan}}{\text{Jumlah total item yang direkomendasikan}}$$
 
    *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
