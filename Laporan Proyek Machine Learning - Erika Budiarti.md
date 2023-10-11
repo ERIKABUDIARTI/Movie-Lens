@@ -12,7 +12,7 @@ Proyek rekomendasi film ini menawarkan solusi untuk permasalahan tersebut. Siste
 
 **Research Terkait**
 
-Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, *e-commerce*, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi *trend* pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan item yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain. [1]
+Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, *e-commerce*, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi *trend* pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan *item* yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain. [1]
 
 
 ## Business Understanding
@@ -32,7 +32,7 @@ Berikut adalah beberapa pendekatan yang dapat digunakan untuk membangun rekomend
 Pendekatan ini akan memanfaatkan informasi tentang film, seperti *genre* dan deskripsi alur cerita, untuk memahami preferensi pengguna. Algoritma ini akan mencocokkan preferensi pengguna dengan atribut-atribut film dan memberikan rekomendasi film yang memiliki atribut yang sesuai dengan preferensi pengguna.
     
 2. *Collaborative Filtering (CF)*:
-Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk memprediksi preferensi mereka. CF dapat diimplementasikan dengan menggunakan dua varian, yaitu *User-Based CF* dan *Item-Based CF*. *User-Based CF* akan mencari pengguna serupa dan      merekomendasikan film yang disukai oleh pengguna serupa. *Item-Based CF* akan mencari film serupa dan merekomendasikan film yang mirip dengan yang sudah disukai oleh pengguna.
+Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk memprediksi preferensi mereka. CF dapat diimplementasikan dengan menggunakan dua varian, yaitu *User-Based CF* dan *Item-Based CF*. *User-Based CF* akan mencari pengguna serupa dan merekomendasikan film yang disukai oleh pengguna serupa. *Item-Based CF* akan mencari film serupa dan merekomendasikan film yang mirip dengan yang sudah disukai oleh pengguna.
     
 
 ## Data Understanding
@@ -262,7 +262,7 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
    Precision digunakan sebagai metrik evaluasi untuk sistem rekomendasi *Content-Based Filtering*. *Precision* mengukur sejauh mana rekomendasi yang diberikan oleh sistem sesuai dengan preferensi atau minat pengguna berdasarkan konten atau fitur-fitur *item* yang diketahui. *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
 
 *Precision* dihitung dengan rumus berikut:
-$$Precision = {Jumlah *item* relevan yang direkomendasikan \over Jumlah total *item* yang direkomendasikan}$$
+$Precision = {Jumlah *item* relevan yang direkomendasikan \over Jumlah total *item* yang direkomendasikan}$
 
 
 
