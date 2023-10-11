@@ -262,8 +262,9 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
         $$\text{Presisi} = \frac{\text{Jumlah item relevan yang direkomendasikan}}{\text{Jumlah total item yang direkomendasikan}}$$
 
     *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
-    *Pada proyek ini, diperoleh skor precision sebesar **1.00** atau **100%** 
-        $$\text{Presisi} = \frac{\10}{\10}}$$
+    Pada proyek ini, diperoleh skor precision sebesar **1.00**
+        $$\text{Presisi} = \frac{\text{10}}{\text{10}} = 1.00 $$
+
 
 
 ---
