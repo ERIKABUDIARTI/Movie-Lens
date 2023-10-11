@@ -262,9 +262,8 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
         $$\text{Presisi} = \frac{\text{Jumlah item relevan yang direkomendasikan}}{\text{Jumlah total item yang direkomendasikan}}$$
 
     *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
-    Pada proyek ini, diperoleh skor precision sebesar **1.00**
-        $$\text{Presisi} = \frac{\text{10}}{\text{10}} = 1.00 $$
-
+        $$\text{Presisi} = \frac{\text{10}}{\text{10}} = 1.00 $$      
+   Pada proyek ini, diperoleh skor *precision* sebesar **1.00** yang berarti sistem rekomendasi berhasil dalam mengidentifikasi dan merekomendasikan *item* kepada pengguna dengan tingkat keakuratan yang sempurna. Dalam *content-based filtering*, rekomendasi dibuat berdasarkan kesesuaian (relevansi) antara preferensi pengguna dan konten dari *item* yang direkomendasikan. Oleh karena itu, skor *precision* yang sempurna menggambarkan bahwa semua *item* yang direkomendasikan kepada pengguna adalah benar-benar sesuai dengan preferensi mereka.
 
 
 ---
@@ -272,7 +271,5 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
 **Referensi**:  
 [1] V. Subramaniyaswamy, "A personalised movie recommendation system based on collaborative filtering", International Journal of High Performance Computing and Networking, Vol.10 No.1-2, 2017.    
 [A personalised movie recommendation system based on collaborative filtering](https://www.inderscienceonline.com/doi/abs/10.1504/IJHPCN.2017.083199) 
-
-
 
 **---Ini adalah bagian akhir laporan---**
