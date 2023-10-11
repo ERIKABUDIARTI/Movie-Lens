@@ -12,10 +12,7 @@ Proyek rekomendasi film ini menawarkan solusi untuk permasalahan tersebut. Siste
 
 **Research Terkait**
 
-Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, e-commerce, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi tren pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan item yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain.
-
-*Referensi*: 
-[A personalised movie recommendation system based on collaborative filtering](https://www.inderscienceonline.com/doi/abs/10.1504/IJHPCN.2017.083199) 
+Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena media sosial, e-commerce, dan digitalisasi perusahaan secara keseluruhan. Data tersebut dimanfaatkan untuk membuat pilihan yang tepat, memprediksi tren pasar, dan pola dalam preferensi konsumen. Sistem rekomendasi telah menjadi hal yang umum setelah penetrasi layanan internet di kalangan masyarakat. Idenya adalah untuk menggunakan teknik pemfilteran dan pengelompokan untuk menyarankan item yang menarik bagi pengguna. Untuk komoditas media seperti film, diharapkan menemukan profil pengguna dengan selera yang sama. Awalnya, preferensi pengguna diperoleh dengan membiarkan pengguna menilai film pilihannya. Setelah digunakan, sistem rekomendasi akan dapat memahami pengguna dengan lebih baik dan menyarankan film yang dinilai lebih tinggi. Hasil eksperimen pada dataset *MovieLens* memberikan model yang andal yang akurat dan menghasilkan rekomendasi film yang lebih personal dibandingkan dengan model lain. [1]
 
 
 ## Business Understanding
@@ -238,8 +235,11 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
     ![Loss](https://raw.githubusercontent.com/ERIKABUDIARTI/Movie_Lens/main/Loss.png)
 
 
+---
 
-
+**Referensi**: 
+[1] V. Subramaniyaswamy, "A personalised movie recommendation system based on collaborative filtering", International Journal of High Performance Computing and Networking, Vol.10 No.1-2, 2017. 
+[A personalised movie recommendation system based on collaborative filtering](https://www.inderscienceonline.com/doi/abs/10.1504/IJHPCN.2017.083199) 
 
 
 **---Ini adalah bagian akhir laporan---**
