@@ -30,11 +30,14 @@ Selama dekade terakhir, telah terjadi peningkatan data yang luar biasa karena me
 
 ### Solution statements
 Berikut adalah beberapa pendekatan yang dapat digunakan untuk membangun rekomendasi film:
+    
     1. *Content-Based Filtering (CBF)*:
     Pendekatan ini akan memanfaatkan informasi tentang film, seperti *genre* dan deskripsi alur cerita, untuk memahami preferensi pengguna.
     Algoritma ini akan mencocokkan preferensi pengguna dengan atribut-atribut film dan memberikan rekomendasi film yang memiliki atribut yang sesuai dengan preferensi pengguna.
+    
     2. *Collaborative Filtering (CF)*:
-    Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk memprediksi preferensi mereka. Kita dapat mengimplementasikan CF menggunakan dua varian, yaitu *User-Based CF* dan *Item-Based CF*. *User-Based CF* akan mencari pengguna serupa dan merekomendasikan film yang disukai oleh pengguna serupa. *Item-Based CF* akan mencari film serupa dan merekomendasikan film yang mirip dengan yang sudah disukai oleh pengguna.
+    Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk memprediksi preferensi mereka. Kita dapat mengimplementasikan CF menggunakan dua varian, yaitu *User-Based CF* dan *Item-Based CF*. *User-Based CF* akan mencari pengguna serupa dan      merekomendasikan film yang disukai oleh pengguna serupa. *Item-Based CF* akan mencari film serupa dan merekomendasikan film yang mirip dengan yang sudah disukai oleh pengguna.
+    
     3. *Hybrid Approaches*:
     Kombinasi dari *Content-Based Filtering* dan *Collaborative Filtering* dapat digunakan untuk menggabungkan keunggulan keduanya. Dengan cara ini, kita dapat meningkatkan akurasi rekomendasi dengan memanfaatkan informasi konten film serta pola perilaku pengguna.
 
