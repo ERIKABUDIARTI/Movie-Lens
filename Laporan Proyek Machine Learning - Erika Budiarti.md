@@ -189,7 +189,7 @@ Pelatihan jaringan saraf tiruan mencakup informasi tentang preferensi pengguna t
     * dapat mempelajari pola yang rumit dalam preferensi pengguna
     * dapat memperhitungkan sejumlah besar fitur yang relevan.
 
-    *Kekurangan:
+    *Kekurangan*:
     * Implementasi dan pelatihan jaringan saraf tergolong rumit
     * memerlukan sumber daya komputasi yang signifikan
     * memerlukan data pelatihan yang cukup besar untuk memberikan hasil yang baik.
