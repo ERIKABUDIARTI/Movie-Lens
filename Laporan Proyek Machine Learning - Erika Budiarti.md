@@ -35,9 +35,6 @@ Algoritma ini akan mencocokkan preferensi pengguna dengan atribut-atribut film d
 2. *Collaborative Filtering (CF)*:
 Pendekatan ini yang memanfaatkan data historis peringkat pengguna untuk memprediksi preferensi mereka. Kita dapat mengimplementasikan CF menggunakan dua varian, yaitu *User-Based CF* dan *Item-Based CF*. *User-Based CF* akan mencari pengguna serupa dan      merekomendasikan film yang disukai oleh pengguna serupa. *Item-Based CF* akan mencari film serupa dan merekomendasikan film yang mirip dengan yang sudah disukai oleh pengguna.
     
-3. *Hybrid Approaches*:
-Kombinasi dari *Content-Based Filtering* dan *Collaborative Filtering* dapat digunakan untuk menggabungkan keunggulan keduanya. Dengan cara ini, kita dapat meningkatkan akurasi rekomendasi dengan memanfaatkan informasi konten film serta pola perilaku pengguna.
-
 
 ## Data Understanding
 Klik *link* berikut untuk *download* dataset:
@@ -242,6 +239,7 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
 **Referensi**:  
 [1] V. Subramaniyaswamy, "A personalised movie recommendation system based on collaborative filtering", International Journal of High Performance Computing and Networking, Vol.10 No.1-2, 2017.    
 [A personalised movie recommendation system based on collaborative filtering](https://www.inderscienceonline.com/doi/abs/10.1504/IJHPCN.2017.083199) 
+
 
 
 **---Ini adalah bagian akhir laporan---**
