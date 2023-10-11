@@ -133,14 +133,14 @@ CBF memanfaatkan informasi tentang atribut atau konten dari *item-item* yang aka
 Mengitung jarak (cosine similarity atau metrik jarak lainnya) antara *item* atau pengguna yang sedang dinilai dan semua *item* atau pengguna lain dalam basis data. Selanjutnya memilih *K item* atau pengguna terdekat.
 Berdasarkan peringkat atau preferensi *item* yang paling mirip dengan *item* atau pengguna yang sedang dinilai, algoritma akan menghasilkan rekomendasi.
 
-*Kelebihan: 
-* Algoritma KNN tergolong sederhana
-* mudah diimplementasikan
-* tidak memerlukan proses pelatihan yang panjang
-
-*Kekurangan*: 
-* KNN bisa memiliki kinerja yang buruk untuk dataset yang sangat besar karena harus menghitung jarak ke semua *item* atau pengguna dalam basis data.
-* Pemilihan nilai K yang tepat dan pemilihan metrik jarak yang cocok bisa menjadi tantangan.  
+    *Kelebihan: 
+    * Algoritma KNN tergolong sederhana
+    * mudah diimplementasikan
+    * tidak memerlukan proses pelatihan yang panjang
+    
+    *Kekurangan*: 
+    * KNN bisa memiliki kinerja yang buruk untuk dataset yang sangat besar karena harus menghitung jarak ke semua *item* atau pengguna dalam basis data.
+    * Pemilihan nilai K yang tepat dan pemilihan metrik jarak yang cocok bisa menjadi tantangan.  
     
     Adapun untuk rekomendasi film diberikan berdasarkan *user input*. Berikut adalah contoh rekomendasi yang diberikan apabila pengguna memasukkan *keyword* "Avengers"
     
