@@ -260,17 +260,7 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
 **PRECISION** digunakan sebagai metrik evaluasi untuk sistem rekomendasi *Content-Based Filtering*. *Precision* mengukur sejauh mana rekomendasi yang diberikan oleh sistem sesuai dengan preferensi atau minat pengguna berdasarkan konten atau fitur-fitur *item* yang diketahui. *Precision* yang tinggi menunjukkan bahwa *Content-Based Filtering* memberikan rekomendasi yang sesuai dengan preferensi pengguna.
 
 *Precision* dihitung dengan rumus berikut:
-
-Precision
-=
-Jumlah item relevan yang direkomendasikan
-Jumlah total item yang direkomendasikan
-Precision= 
-Jumlah total item yang direkomendasikan
-Jumlah item relevan yang direkomendasikan
-​
-*item* relevan yang direkomendasikan" adalah jumlah *item* dalam rekomendasi yang sesuai dengan preferensi pengguna 
-jumlah total *item* yang direkomendasikan adalah total *item* dalam rekomendasi yang diberikan oleh sistem.
+$$ Precision = {Jumlah *item* relevan yang direkomendasikan \over Jumlah total *item* yang direkomendasikan} $$
 
 
 
