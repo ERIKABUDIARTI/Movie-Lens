@@ -267,9 +267,9 @@ Proyek ini menggunakan metrik evaluasi **ROOT MEAN SQUARED ERROR (RMSE)** dan me
 
 
 ---
-
 **Referensi**:  
 [1] V. Subramaniyaswamy, "A personalised movie recommendation system based on collaborative filtering", International Journal of High Performance Computing and Networking, Vol.10 No.1-2, 2017.    
 [A personalised movie recommendation system based on collaborative filtering](https://www.inderscienceonline.com/doi/abs/10.1504/IJHPCN.2017.083199) 
+
 
 **---Ini adalah bagian akhir laporan---**
